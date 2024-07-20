@@ -1,0 +1,11 @@
+.footer{
+    &--content{
+        display: flex;
+        padding-block: 20px;
+        justify-content: space-between;
+        align-items: centerm;
+        font-size: 14px;
+        font-family: 'Open-sans', sans-serif;
+        color: rgba(128, 128, 128, 0.719);
+    }
+}
