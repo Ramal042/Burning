@@ -50,6 +50,16 @@ body {
   font-size: 14px;
   align-items: center;
 }
+.header--nav div:first-child ul > li > a:hover {
+  transition: all 1s ease-in-out;
+  border-bottom: 3px solid white;
+  color: rgb(83, 83, 83);
+}
+.header--nav .a:hover {
+  transition: all 1s ease-in-out;
+  border-bottom: 3px solid white;
+  color: rgb(83, 83, 83);
+}
 .header--content {
   margin-top: 100px;
   display: flex;
@@ -72,6 +82,11 @@ body {
   border: 1px solid white;
   padding: 18px 23px;
 }
+.header--content button:hover {
+  transition: all 1s ease-in-out;
+  background-color: gray;
+  color: black;
+}
 
 main {
   padding-top: 60px;
@@ -81,7 +96,7 @@ main {
   display: flex;
   padding-block: 20px;
   justify-content: space-between;
-  align-items: center;
+  align-items: centerm;
   font-size: 14px;
   font-family: "Open-sans", sans-serif;
   color: rgba(128, 128, 128, 0.719);
@@ -120,18 +135,6 @@ main {
 .about .cards .card div:last-child {
   display: flex;
   justify-content: space-between;
-}
-
-ul li a:hover{
-  border-bottom: 3px solid white;
-  color: black;
-  background-color: rgba(128, 128, 128, 0.425);
-}
-
-.a:hover{
-  border-bottom: 3px solid white;
-  color: black;
-  background-color: rgba(128, 128, 128, 0.425);
 }
 
 /*# sourceMappingURL=style.css.map */

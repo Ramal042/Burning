@@ -20,8 +20,19 @@
                 gap:40px ;
                 font-size: 14px;
                 align-items: center;
+
+                &>li>a:hover{
+                    transition: all 1s ease-in-out;
+                    border-bottom: 3px solid white;
+                    color: rgb(83, 83, 83);
+                }
             }
 
+        }
+        .a:hover{
+            transition: all 1s ease-in-out;
+            border-bottom: 3px solid white;
+            color: rgb(83, 83, 83);
         }
     }
 
@@ -46,6 +57,12 @@
             background-color: transparent;
             border: 1px solid white;
             padding: 18px 23px;
+
+            &:hover{
+                transition: all 1s ease-in-out;
+                background-color: gray;
+                color: black;
+            }
         }
     }
 }
